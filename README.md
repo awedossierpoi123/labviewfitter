@@ -13,8 +13,7 @@ labviewfitterを利用可能です。***
 ***From Releases, you can download an
 installer for labviewfitter and use it without
 installing LabVIEW development system, which in 
-some cases not free of charge.
-***
+some cases not free of charge.***
 
 データ処理に用いたアルゴリズムは以下の通りです。
 
