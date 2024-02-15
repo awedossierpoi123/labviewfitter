@@ -1,9 +1,11 @@
 # labviewfitter
 LabVIEWを使用してのデータ処理ができます。
 
-データのスムージング、ベースライン補正、
+labviewfitter allow users to process data using LabVIEW.
 
-トリミング、フィッテングが可能です。
+データのスムージング、ベースライン補正、トリミング、フィッテングが可能です。
+
+Smoothing, baseline correction, trimming, curve fitting of data points can be done.
 
 ***Releasesからインストーラーが含まれた
 zipファイルをダウンロードできます。
@@ -16,15 +18,20 @@ installing LabVIEW development system, which in
 some cases not free of charge.***
 
 データ処理に用いたアルゴリズムは以下の通りです。
+Here are lists of algorithms used for data processing.
 
-スムージング: Savitzky-Golay
+スムージング Smoothing: Savitzky-Golay
 
-ベースライン補正: 重み付平滑化スプライン
+ベースライン補正 baseline correction: 平滑化スプライン Smoothing Splines
 
-フィッテング: 非線形最小二乗法
+フィッテング curve fitting: 非線形最小二乗法 non-linear least squares
 
 フィッテングはガウス関数のみ対応しています。
 
 フィッテングにおいて、制約条件を指定することにより
 
 より最適解に収束しやすくすることが可能です。
+
+Only gaussian functions can be used for curve fitting.
+
+It is possible to use constraint conditions so that least squares can be solved efficiently.
