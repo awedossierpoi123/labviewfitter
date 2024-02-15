@@ -20,6 +20,7 @@
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="paramrangemaker.vi" Type="VI" URL="../paramrangemaker.vi"/>
 		<Item Name="status.ctl" Type="VI" URL="../status.ctl"/>
+		<Item Name="tabselect.ctl" Type="VI" URL="../tabselect.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
