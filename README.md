@@ -20,7 +20,7 @@ some cases not free of charge.***
 データ処理に用いたアルゴリズムは以下の通りです。
 Here are lists of algorithms used for data processing.
 
-スムージング Smoothing: Savitzky-Golay
+スムージング Smoothing: 移動平均 Moving Average, Savitzky-Golay
 
 ベースライン補正 baseline correction: 平滑化スプライン Smoothing Splines
 
